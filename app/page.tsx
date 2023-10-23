@@ -23,6 +23,14 @@ return (
             <NoteCard />
             <NoteCard />
             <NoteCard />
+            <NoteCard />
+            <NoteCard />
+            <NoteCard />
+            <NoteCard />
+            <NoteCard />
+            <NoteCard />
+            <NoteCard />
+            <NoteCard />
          </div>
 
          {/* ADD BUTTON */}
