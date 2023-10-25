@@ -8,7 +8,9 @@ import AddButton from './components/AddButton';
 
 type Note = {
   _id: string;
-  //test
+  title: string;
+  category: string;
+  body: string[];
 };
 
 export default function Home() {
