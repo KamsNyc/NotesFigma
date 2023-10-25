@@ -6,8 +6,13 @@ import Navbar from './components/Navbar';
 import Filter from './components/Filter';
 import AddButton from './components/AddButton';
 
+type Note = {
+  _id: string;
+};
+
 export default function Home() {
-  const [notes, setNotes] = useState([]);
+  const [notes, setNotes] = useState<Note[]>([]);
+
 
   const fetchNotes = async () => {
     try {
