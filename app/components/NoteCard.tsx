@@ -1,6 +1,14 @@
 import React from 'react';
 
-function NoteCard({ note }) {
+interface NoteCardProps {
+  note: {
+    title: string;
+    category: string;
+    body: string[];
+  };
+}
+
+function NoteCard({ note }:NoteCardProps) {
   return (
     <section className="bg-[#D9E8FC] rounded-2xl">
       {/* CONTENT CONTAINER */}
